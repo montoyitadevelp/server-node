@@ -6,7 +6,7 @@ const movies = require('./movies/movies.json');
 const app = express();
 
 app.disable('x-powered-by');
-// middleware para captura la request y hacer la transformacion
+// middleware para captura la request y hacer la transformacion.
 app.use(express.json());
 app.use(
   cors({
